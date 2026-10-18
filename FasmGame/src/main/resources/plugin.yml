@@ -1,0 +1,13 @@
+name: FasmGame
+version: '${project.version}'
+main: dev.pluginstest.fasm.FasmPlugin
+api-version: '1.21'
+description: Охота на призраков в Minecraft
+commands:
+  fasm:
+    description: Лобби игры и управление
+    usage: /fasm [lobby|leave|npc]
+permissions:
+  fasm.admin:
+    description: Админские команды FasmGame
+    default: op
